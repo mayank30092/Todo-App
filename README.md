@@ -1,16 +1,162 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Todo App
 
-Currently, two official plugins are available:
+### Stay Organized • Stay Productive • Manage Tasks Effortlessly
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img src="https://img.shields.io/github/stars/mayank30092/Todo-App?style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/mayank30092/Todo-App?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vite-Lightning%20Fast-purple?style=for-the-badge"/>
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 **Deployed on Vercel**
+
+https://todo-app.vercel.app
+
+---
+
+## ✨ Features
+
+🔥 **Modern UI** – Clean and intuitive interface
+⚡ **Fast Performance** – Powered by Vite
+📝 **Add Tasks** – Quickly create new tasks
+✔️ **Mark Complete** – Track completed tasks easily
+📋 **Task Dashboard** – Manage all tasks in one place
+📱 **Responsive Design** – Works on mobile & desktop
+🧠 **Context API** – Global state management
+🌐 **PWA Support** – Install like a mobile app
+
+---
+
+## 🛠 Tech Stack
+
+<div align="center">
+
+| Technology      | Usage            |
+| --------------- | ---------------- |
+| ⚛ React         | Frontend UI      |
+| ⚡ Vite          | Build Tool       |
+| 🔀 React Router | Navigation       |
+| 🧠 Context API  | State Management |
+| 🎨 CSS          | Styling          |
+| 📱 PWA          | Installable App  |
+
+</div>
+
+---
+
+## 📂 Project Structure
+
+```id="l2d3y8"
+Todo-App
+│
+├── public
+│   ├── manifest.json
+│   └── sw.js
+│
+├── src
+│   ├── components
+│   │   └── Navbar.jsx
+│   │
+│   ├── context
+│   │   └── TaskContext.jsx
+│   │
+│   ├── pages
+│   │   ├── Dashboard.jsx
+│   │   ├── AddTask.jsx
+│   │   ├── Tasks.jsx
+│   │   ├── Completed.jsx
+│   │   └── Settings.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+│
+└── vite.config.js
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash id="0n6trq"
+git clone https://github.com/mayank30092/Todo-App.git
+```
+
+Navigate into the project
+
+```bash id="u7i2ra"
+cd Todo-App
+```
+
+Install dependencies
+
+```bash id="0tbny1"
+npm install
+```
+
+Run development server
+
+```bash id="y1dfcw"
+npm run dev
+```
+
+---
+
+## 🚀 Build for Production
+
+```bash id="3n4vjp"
+npm run build
+```
+
+Preview production build
+
+```bash id="q31khx"
+npm run preview
+```
+
+---
+
+## 📱 Progressive Web App
+
+This project supports **PWA features**, allowing users to install the application like a native mobile app.
+
+Includes:
+
+* `manifest.json`
+* `service worker`
+
+---
+
+## 🎯 Future Improvements
+
+🌙 Dark Mode
+🔔 Task Notifications
+📅 Task Deadlines
+☁️ Cloud Sync
+🔐 Authentication System
+
+---
+
+## 👨‍💻 Author
+
+**Mayank Mittal**
+
+GitHub
+https://github.com/mayank30092
+
+---
+
+<div align="center">
+
+⭐ If you like this project, please **give it a star** ⭐
+
+</div>
